@@ -27,6 +27,10 @@ function filterItemsBySize(maxSize) {
   
   // Piste pour la boucle : items.forEach(item => { ... });
   
+  items.forEach(items => {
+
+  });
+
   // Ne pas oublier de mettre à jour le compteur d'éléments visibles
   updateCount();
 }
@@ -39,7 +43,9 @@ function sortItemsAlphabetically() {
 
   // TODO: Filtrer les éléments visibles, les trier par ordre alphabétique
   // avec localeCompare, puis les réinsérer dans itemList dans l'ordre.
-  
+  // items.sort((a, b => a.localeCompare(b)));
+  items.sort();
+  console.log(items);
 }
 
 /**
